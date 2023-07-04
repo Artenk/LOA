@@ -1,0 +1,29 @@
+.all {
+    width: auto;
+    height: auto;
+    background: black;
+    padding: 10px;
+    font-family: 'VT323', monospace;
+    font-size: 14px;
+    display: flex;    
+    justify-content: center;
+    color: white;
+    transition: .5s;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 2px black;
+}
+
+.all:hover {
+    text-shadow: 0 0 5px white,0 0 2px white;
+    letter-spacing: .2px;
+    box-shadow: 0 0 5px 0 black;
+}
+
+a:active {
+    color:red;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
